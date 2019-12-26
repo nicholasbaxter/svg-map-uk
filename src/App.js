@@ -1,24 +1,25 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import MapSVG from "./data/MapSVG";
+import GithubCorner from "react-github-corner";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+      <div>
+        <p
+          style={{
+            color: "white",
+            fontFamily: "Major Mono Display",
+            position: "absolute",
+            left: "1rem",
+            top: "1rem"
+          }}
         >
-          Learn React
-        </a>
-      </header>
+          SVG Map of the UK, built in React
+        </p>
+        <GithubCorner href="https://github.com/eyecandycode/repo" />
+      </div>
+      <MapSVG />
     </div>
   );
 }

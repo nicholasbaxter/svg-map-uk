@@ -9,4 +9,4 @@ npm i
 npm start
 ```
 
-[Live example here](http://lab.eyecandycode.com/svgmap)
+[Live example here](https://hopeful-williams-c74d6f.netlify.com/)
